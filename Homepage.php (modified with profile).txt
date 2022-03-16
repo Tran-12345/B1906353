@@ -44,7 +44,7 @@ body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
 	
 	//print_r($result);
 	if ( $result->num_rows > 0) {
-	 //lay link anh tu csdl da luu de hien thi cac anh duoc luu trong uploads
+	
 	  $row = $result->fetch_assoc();
 	  echo '<img src="'.'./uploads/'.$row['img_profile'].'" alt="Anh profile">';
 	}
